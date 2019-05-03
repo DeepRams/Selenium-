@@ -28,7 +28,12 @@ public class Seleniumcommands {
         System.setProperty("webdriver.ie.driver", "C:\\Users\\HP\\Desktop\\Selenium\\Installation stuff\\Exe Files\\IEDriverServer.exe");
         WebDriver driver2=new InternetExplorerDriver(); 
         
+     // Close and Quit
+     		driver.close();// this will close the current active window of the current instance
+     		driver.quit();// this will close all the windows in the current instance
+
+
         
-	}
+        }
 
 }
