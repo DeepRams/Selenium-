@@ -31,7 +31,7 @@ public class Seleniumcommands {
      // Close and Quit
      		driver.close();// this will close the current active window of the current instance
      		driver.quit();// this will close all the windows in the current instance
-     		//////
+     		
 
 
         
