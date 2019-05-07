@@ -17,6 +17,7 @@ public class Seleniumcommands {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\Desktop\\Selenium\\Installation stuff\\Exe Files\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         
+        
         // Here Webdriver is an Interface, driver is a reference variable, new is a keyword,Chromedriver is a class
         
         //  open Firefox browser 
@@ -58,3 +59,4 @@ public class Seleniumcommands {
      		
      	}
  }
+
