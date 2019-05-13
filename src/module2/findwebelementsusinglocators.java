@@ -41,6 +41,7 @@ public class findwebelementsusinglocators {
 		  driver.findElement(By.className("inputtext")).sendKeys("Ram");
 		  
 		  
+		  
 		  // using LinkText locator
 		  
 		  driver.findElement(By.linkText("Forgot account?")).click();
@@ -72,4 +73,5 @@ public class findwebelementsusinglocators {
 		 
 	}
 
+	
 }
